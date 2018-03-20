@@ -2,10 +2,10 @@
 header("Access-Control-Allow-Origin: *");
    // Define database connection parameters
 
-   $hn      = 'localhost';   // localhost
-   $un      = 'root';        // user ( like phpmyadmin access ) 
-   $pwd     = 'password';    // password 
-   $db      = 'user';        // database name collection
+   $hn      = 'localhost';          // localhost
+   $un      = 'root';               // user ( like phpmyadmin access ) 
+   $pwd     = 'password';           // password 
+   $db      = 'projectName';        // database name collection
    $cs      = 'utf8';
 
    // Set up the PDO parameters
